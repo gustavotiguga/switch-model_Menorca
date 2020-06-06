@@ -1,0 +1,12 @@
+--verbose
+--stream-solver
+--sorted-output
+
+--solver=cplex --solver-io=nl
+--solver-options-string="display=1 mipdisplay=1 iisfind=1 threads=1"
+
+# use the relaxed-split-commit method of RPS allocation (fairly fast and accurate
+# but has a bug that forces RE dispatch to equal commitment when RPS is 100%)
+# --rps-allocation relaxed_split_commit
+# switching fuel by period is also fairly fast and plausible
+#--rps-allocation fuel_switch_by_period
