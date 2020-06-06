@@ -1,0 +1,16 @@
+GENERATION_PROJECT,gen_tech,gen_load_zone,gen_connect_cost_per_mw,gen_capacity_limit_mw,gen_full_load_heat_rate,gen_variable_om,gen_max_age,gen_min_build_capacity,gen_scheduled_outage_rate,gen_forced_outage_rate,gen_is_variable,gen_is_baseload,gen_is_cogen,gen_energy_source,gen_unit_size,gen_ccs_capture_efficiency,gen_ccs_energy_load,gen_storage_efficiency,gen_storage_energy_to_power_ratio,gen_storage_max_cycles_per_year,gen_store_to_release_ratio
+Diesel_GE,diesel,Menorca,0,76,10.55,0,30,0,0.05,0,0,0,0,diesel,.,.,.,.,.,.,.
+Diesel_P&W,diesel,Menorca,0,148.2,10.55,0,30,0,0.05,0,0,0,0,diesel,.,.,.,.,.,.,.
+Fueloil_MB&W,fueloil,Menorca,0,47.4,11.37,0,30,0,0.05,0,0,0,0,fueloil,.,.,.,.,.,.,.
+Wind_Mila,wind,Menorca,0,3.2,.,0,20,0.8,0,0,1,0,0,wind,.,.,.,.,.,.,.
+PV_SonSalomo,utility_pv,Menorca,0,5.1,.,0,20,1,0,0,1,0,0,sun_utility,.,.,.,.,.,.,.
+NG_GT,nat_gas,Menorca,0,.,8.9,7.26,30,5,0.02,0,0,0,0,gas,5,.,.,.,.,.,.
+CCGT,ccgt,Menorca,0,.,6.25,2.61,30,50,0.02,0,0,0,0,gas,50,.,.,.,.,.,.
+CCGT_CCS,ccgt_ccs,Menorca,0,.,7.12,5.83,30,50,0.02,0,0,0,0,gas,50,.,.,.,.,.,.
+Utility_PV,utility_pv,Menorca,0,300,.,0,20,2,0,0,1,0,0,sun_utility,2,.,.,.,.,.,.
+Wind_OnShore,wind,Menorca,0,50,.,0,20,2,0,0,1,0,0,wind,2,.,.,.,.,.,.
+Battery_Utility_4h,bat_4h,Menorca,0,.,.,0,15,1,0,0,0,0,0,battery,1,.,.,0.9,4,.,1
+Battery_Utility_2h,bat_2h,Menorca,0,.,.,0,15,1,0,0,0,0,0,battery,1,.,.,0.9,2,.,1
+Battery_Utility_1h,bat_1h,Menorca,0,.,.,0,15,1,0,0,0,0,0,battery,1,.,.,0.9,1,.,1
+Battery_Utility_30m,bat_30m,Menorca,0,.,.,0,15,1,0,0,0,0,0,battery,1,.,.,0.9,0.5,.,1
+Enlace_MallorcaMenorca,sea_cable,Menorca,0,105,3.24,0,30,35,0,0,0,0,0,cable,35,.,.,.,.,.,.
