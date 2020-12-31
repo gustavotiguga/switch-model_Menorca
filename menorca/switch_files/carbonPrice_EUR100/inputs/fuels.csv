@@ -1,0 +1,6 @@
+fuel,co2_intensity,upstream_co2_intensity,rps_eligible
+diesel,0.0780,0,0
+fueloil,0.0820,0,0
+gas,0.0590,0,0
+gas_ccs,0.0000,0,0
+cable,0.056,0,0
