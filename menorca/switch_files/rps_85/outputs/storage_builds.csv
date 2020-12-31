@@ -1,0 +1,11 @@
+generation_project,period,load_zone,IncrementalPowerCapacityMW,IncrementalEnergyCapacityMWh,OnlinePowerCapacityMW,OnlineEnergyCapacityMWh
+Battery_Utility_4h,2021,Menorca,0,0,0,0
+Battery_Utility_4h,2022,Menorca,0,0,0,0
+Battery_Utility_4h,2023,Menorca,0,0,0,0
+Battery_Utility_4h,2024,Menorca,0,0,0,0
+Battery_Utility_4h,2025,Menorca,0,0,0,0
+Battery_Utility_4h,2026,Menorca,3,12,3,12
+Battery_Utility_4h,2027,Menorca,0,0,3,12
+Battery_Utility_4h,2028,Menorca,0,0,3,12
+Battery_Utility_4h,2029,Menorca,0,0,3,12
+Battery_Utility_4h,2030,Menorca,0,0,3,12
