@@ -1,20 +1,19 @@
 Power System Modelling for the Island of Menorca using Switch 2.0.
 
-This study was carried out as a master thesis project by the graduate student Gustavo Gomes Pereira during the year of 2020.
-It aims to identify a cost optimum power system capable of reliably meeting Menorca's electricity needs from 2021 to 2030 (inclusive). 
-More specifically, it consists of a techno-economic analysis of the power system of the Spanish island of Menorca using the open-source 
-software package Switch 2.0. Computational models assessing a series of power technologies with their respective costs and technical 
-specifications are analysed through a series of simulations, which include a series of different scenarios:
+This study was carried out as a master thesis project by the graduate student Gustavo Gomes Pereira during the year of 2020. It aims to identify a cost optimum power 
+system capable of reliably meeting Menorca's electricity needs from 2021 to 2030 (inclusive). More specifically, it consists of a techno-economic analysis of the 
+power system of the Spanish island of Menorca using the open-source software package Switch 2.0. Computational models assessing a series of power technologies with 
+their respective costs and technical specifications are analysed through a series of simulations, which include a series of different scenarios:
 
 - Base case (default): no externality is considered and each power generator is modelled based on its specific merits and capabilities.
 
-- Carbon pricing: introduction of a carbon price (in euros per tonne of CO2) that affects the cost of dispatching generators based on
-their respective carbon emissions. Carobon prices of €20, €50, €80 and €100 per tonne of CO2 are considered.
+- Carbon pricing: introduction of a carbon price (in euros per tonne of CO2) that affects the cost of dispatching generators based on their respective carbon 
+emissions. Carobon prices of €20, €50, €80 and €100 per tonne of CO2 are considered.
 
-- Renewable portfolio standards (RPS): implementation of a renewable energy mandate as a percentage of total electricity generation to be met by 2030.
-RPS levels of 75%, 85% and 95% are considered.
+- Renewable portfolio standards (RPS): implementation of a renewable energy mandate as a percentage of total electricity generation to be met by 2030. RPS levels of
+75%, 85% and 95% are considered.
 
-- Natural gas price hedging: sensitivity analysis to evaluate how different costs of hedging natural gas prices impact the optimization results.
-Annual hedging costs of 1%, 2%, 5% and 10% are implemented and compounded yearly over the 10-year period of the study (2021-2030).
+- Natural gas price hedging: sensitivity analysis to evaluate how different costs of hedging natural gas prices impact the optimization results. Annual hedging costs
+of 1%, 2%, 5% and 10% are implemented and compounded yearly over the 10-year period of the study (2021-2030).
 
 (FOR A COMPLETE AND DETAILED EXPLANATION OF THE STUDY, PLEASE VIEW THE PDF FILE ENTITLED "Master Thesis - Gustavo Gomes Pereira.pdf")
