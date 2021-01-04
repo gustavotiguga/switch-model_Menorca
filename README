@@ -11,8 +11,9 @@ are analysed through a series of simulations, which include a series of differen
 - Base case (default): no externality is considered and each power generator is modelled based on its specific merits
 and capabilities.
 
-- Carbon price: introduction of a carbon price (in euros per tonne of CO2) that affects the cost of dispatching generators
-based on their respective carbon emissions. Carobon prices of €20, €50, €80 and €100 per tonne of CO2 are considered.
+- Carbon price: introduction of a carbon price (in euros per tonne of CO2) that affects the cost of dispatching 
+generators based on their respective carbon emissions. Carbon prices of €20, €50, €80 and €100 per tonne of CO2 
+are considered.
 
 - Renewable portfolio standards (RPS): implementation of a renewable energy mandate as a percentage of total electricity
 generation to be met by 2030. RPS levels of 75%, 85% and 95% are considered.
@@ -20,4 +21,4 @@ generation to be met by 2030. RPS levels of 75%, 85% and 95% are considered.
 - Natural gas price hedging: sensitivity analysis to evaluate how different costs of hedging natural gas prices impact the
 optimization results.Annual hedging costs of 1%, 2%, 5% and 10% are compounded yearly over the 10-year period of the study.
 
-(FOR A DETAILED EXPLANATION OF THE STUDY, PLEASE VIEW THE PDF FILE ENTITLED "Master Thesis - Gustavo Gomes Pereira.pdf")
+(FOR A DETAILED EXPLANATION OF THE STUDY, PLEASE VIEW THE FILE ENTITLED "Master Thesis - Gustavo Gomes Pereira.pdf")
