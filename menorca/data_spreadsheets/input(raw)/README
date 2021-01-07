@@ -1,0 +1,6 @@
+These spreadsheets contain data used to model Menorca's power system and run the cost-optimization on Switch v2.0.
+
+Several different sources were used to gather data and allow for the model construct.
+
+It must be noted that the data in the spreadsheets is not yet fully formatted to be used with Switch. 
+For all the (Switch-ready) input files used in the study, please check the folder "switch_files" two levels above this one.
