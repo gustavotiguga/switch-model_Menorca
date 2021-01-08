@@ -73,3 +73,12 @@ line of scenarios.txt, then any arguments specified on the command line.
 After the model runs, results will be written in tab-separated text files (with
 extension .tsv or .tab) in the "outputs" directory (or some other directory
 specified via the "--outputs-dir" argument).
+
+PS: The file "rps_simple.py", under /switch_model/policies/ has been modified
+by the author of this study (Gustavo Gomes Pereira) so that the RPS target is 
+enforced as a % of total power generated (total_generation_in_period(m, p)), 
+and not total power demand (total_demand_in_period(m, p)) as is the case in the 
+original version of Switch 2.0 (by Michael Fripp). This is modification is done 
+to ensure that the energy provided by storage projects (e.g. batteries) is not 
+automatically accounted for as renewable, since the energy stored might have come
+from a non-renewable source (e.g. natural gas).
